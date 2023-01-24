@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+html {
+    background-color: #ececec;
+}
+form {
+    margin: 0;
+    }
+p {
+    padding-left: 15px;
+}
+a {
+    color: rgb(93, 135, 190);
+    font-size: 15px;
+    font-family: 'Barlow', sans-serif;
+}
+    h2 {
+        font-family: 'Barlow', sans-serif;
+        text-align: center;
+        font-size: 25px;
+        color: rgb(128, 128, 128);
+        font-size: 30px;
+    }
+
+#panel {
+    background: #fff;
+    box-shadow: 0 0 15px rgb(153, 153, 153);
+    width: 500px; 
+    margin: auto; 
+    padding: 15px 0 0;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    border-radius: 5px;
+    }
+        #username, #password {
+            outline: solid 1px rgb(214, 214, 214);
+            border: none;
+            display: block;
+            width: 380px; 
+            margin: 0 auto;
+            font-size: 15px;
+            padding: 10px 10px;
+            }
+           
+            #lower {
+                background: #eeeeee;
+                margin-top: 20px;
+                width: 460px;
+                padding: 5px 20px;
+                }
+                .check {
+                    font-family: 'Barlow', sans-serif;
+                    display: inline;
+                    float: none;
+                    font-size: 15px;
+                    padding: 5px;
+                    }
+                    label {
+                        display: block;
+                        color: #777777;
+                        width: 260px;
+                        padding: 10px 20px;
+                        font-size: 19px;
+                        text-shadow: 0 0 1px silver;
+                        font-family: 'Barlow', sans-serif;
+                        }
+                    input[type="submit"] {
+                        font-size: 15px;
+                        width: 100px;
+                    border: none;
+                    color: white;
+                    font-family: 'Karla', sans-serif;
+                    background: #afafaf;
+                    position: relative;
+                    left: 240px;
+                    text-shadow: 0 0 1px black;
+                    
+                    }
+                   
+                    
